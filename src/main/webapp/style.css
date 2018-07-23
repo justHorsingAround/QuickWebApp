@@ -1,0 +1,255 @@
+.login {
+    align-content:center;
+    text-align: center;
+    padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+
+}
+
+#login-header-text {
+    text-align: center;
+    color: blue;
+    align-content: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.registration-text {
+    text-align: center;
+    color: blue;
+    align-content: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+#registration-form {
+   display: inline-block;
+   text-align: center;
+   margin-left: 25%;
+   margin-right:25%;
+   width: 50%;
+
+}
+
+#login-form {
+    text-align: center;
+    color: blue;
+    align-content: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+#login-error {
+    display: none;
+    color:red;
+    text-align:center;
+    padding-top: 10px;
+}
+
+#reg-ok {
+    display: none;
+    color: rgb(102, 255, 51);
+    text-align:center;
+    padding-top: 10px;
+}
+
+#registration-error {
+    display: none;
+    color:red;
+    text-align:center;
+    padding-top: 10px;
+
+
+}
+#main-menu {
+    align-content:center;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+
+}
+
+#welcome-header {
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+
+}
+
+#schedules {
+    display: none;
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+
+}
+.main-menu-messages {
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+ /* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0px; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0px; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 20px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: rgb(100,100,100);
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+body {
+    background-color: rgb(100, 100, 100);
+}
+
+.content {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 80%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0px; /* Stay at the top */
+    right: 0;
+    background-color: rgb(100, 100, 100); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.view-customers {
+    margin:auto;
+    align-content: center;
+    text-align: center;
+    color:white;
+    padding: 10px 10px 10px 10px;
+
+
+}
+
+
+#newtask {
+    display: none;
+}
+
+#viewtask {
+    display: none;
+}
+
+#availableTasks {
+    margin: auto;
+    text-align: center;
+    border: 3px solid white;
+}
+
+#schedules {
+    display: none;
+}
+
+#new-schedule {
+    display: none;
+}
+
+table, th, td {
+    width: 100%;
+    border: 1px solid black;
+    align-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#back-btn {
+    font-size: 25px;
+}
+
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+#add-content {
+    display: none;
+    text-align: center;
+    align-content: center;
+
+}
+
+#content {
+    width: 80%;
+}
